@@ -26,6 +26,9 @@
   "settings": {
     "next": {
       "rootDir": "playground/"
+    },
+    "jest": {
+      "version": 30
     }
   },
   "parser": "@typescript-eslint/parser",
@@ -53,11 +56,13 @@
     "library/e2e/plugins/index.js",
     "library/loaders/remove-hashbag-loader.js",
     "library/jest.config.js",
+    "library/jest.setup.js",
     "library/postcss.config.js",
     "library/webpack.config.js",
     "library/tailwind.config.js",
     "library/cypress.config.js",
     "playground/out",
+    "playground/next-env.d.ts",
     "playground/postcss.config.js",
     "web-component/lib",
     "web-component/webpack.config.js"
